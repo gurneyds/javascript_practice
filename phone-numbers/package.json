@@ -1,0 +1,19 @@
+{
+  "name": "phone-numbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "test-unit": "NODE_ENV=test mocha '/**/*Test.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "sinon": "^2.4.1",
+    "mocha": "^3.4.2"
+  }
+}
